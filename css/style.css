@@ -1,0 +1,223 @@
+hr{
+	margin: 20px 0;
+    border: solid black 10px;
+    color: #fff394;
+}
+h1{
+	text-align: center;
+	font-family: Arial;
+}
+.navbar{
+	background-color: #fff394;	
+}
+.glavniMeni {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.glavniMeni li{
+	float: left;
+}
+
+.glavniMeni li a{
+	display: inline-block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	color:  black;
+}
+
+.glavniMeni .active a,
+.glavniMeni li a:hover{
+		color: white;
+}
+
+.odeljak_divSaSlikom, 
+.odeljak_divGallery{
+	float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+	width: 20%;
+    margin: 0 2.5%;
+    height: 300px;
+    margin-bottom: 25px;
+	
+}
+
+.odeljak_divGallery div {
+	visibility: hidden;
+	position: absolute;
+}
+
+.odeljak_divGallery:hover img {
+	opacity: 0.5;
+}
+
+.odeljak_divGallery:hover div {
+	background-color: white;
+	visibility: visible;
+	font-weight: bold;
+
+}
+
+.cetiri_boksa {
+	border: 1px solid #cc9b07;
+	color: #cc9b07;
+	display: table-cell;
+	font-size: 1em;
+	height: 20px;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	width: 25%;
+}
+
+.cetiri_boksa:hover {
+	font-size: 1.15em;
+}
+
+.kulb-img{
+	height: 350px;
+	width: 75%;
+	margin: 40px 20px 20px 20px;
+}
+
+.form-control-label,
+.form-control-textarea,
+.form-control-checkbox,
+.form-control-button {
+	margin: 7px 12px 5px 12px;
+}
+
+.form-control-button {
+	  background-color: #cc9b07;
+	  border: solid #bd8f06 1px;
+	  border-radius: 5px;
+	  color: #000000;
+	  font: bold;
+	  font-size: 1em;
+	  margin-bottom: 10px;
+	  padding: 5x;
+}
+
+.form-control-button:hover {
+	font-size: 1.1em;
+}
+
+.form-control-label {
+	color: #cc9b07;
+}
+
+.form-control {
+	margin: 7px 12px 5px 12px;
+}
+
+.odeljak_divSaSlikom div{
+	 position: realtive;
+	 font-size: 20px;
+}
+.odeljak_divSaSlikom img{
+	height: 300px;
+	width: 300px;
+	border: 2px solid black;
+	
+}
+#odeljak_naslov{
+	padding-bottom: 10px;
+	color: red;
+}
+
+.odeljak_naslov div
+{
+	margin:10px 100px;
+}
+
+ #logo{
+	float:right;
+	width: 80px;
+	height: 60px;
+	margin: 20px 20px 0px 0px;
+}
+
+#wrapper {
+	width:85%;
+	margin: auto;
+}
+
+#bannerSlika{
+	width:100%;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#levo, #desno {
+    width: 5%;
+    position: absolute;
+    top: 150px;
+    opacity: 0.7;
+}
+
+#levo:hover, #desno:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#levo {
+    left: 15px;
+}
+
+#desno {
+    right: 15px;
+}
+#kategorije{
+	
+	width: 30%;
+}
+
+#lista_kategorija{
+	list-style-type: none;
+}
+
+#lista_kategorija li:hover {
+	color:  black;
+}
+
+#lista_kategorija li {
+	padding: 5px;
+}
+
+#footer{
+	width: 100%;
+	overflow: hidden;
+	background-color: #fff394;
+	color:  black;
+}
+
+#footer div{
+	margin: auto;
+	max-width: 85%;
+	line-height: 2.5;
+    text-transform: uppercase;
+}
+
+#footer a {
+    padding: 0 15px;
+    text-decoration: none;
+    color:  black;
+}
+
+ #footer a:hover {
+    color: white;
+}
+
+ #footer span {
+    float: right;
+}
